@@ -1,0 +1,92 @@
+.skills-section {
+  background-color: var(--bg-color);
+  padding: 100px 0;
+}
+
+.section-subtitle {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.section-title {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 70px;
+}
+
+body.light .skill-box {
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e8e8e8;
+}
+
+body.dark .skill-box {
+  background-color: #1a1a1a;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-box {
+  background-color: var(--bg-color);
+  border-radius: 20px;
+  padding: 35px;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #49c58a;
+}
+
+.skill-box h3 {
+  color: var(--text-color);
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-tags span {
+  padding: 10px 18px;
+  border: 1px solid #31485f;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  background-color: transparent;
+  color: inherit;
+}
+
+body.light .skill-tags span {
+  border: 1px solid #31485f;
+  background-color: #f0f7f3;
+  color: #333;
+}
+
+body.light .skill-tags span:hover {
+  background: #49c58a;
+  color: white;
+  border-color: #49c58a;
+}
+
+body.dark .skill-tags span {
+  border: 1px solid #49c58a;
+  color: #7ff5b8;
+  background-color: transparent;
+}
+
+body.dark .skill-tags span:hover {
+  background: #49c58a;
+  color: #000;
+  border-color: #49c58a;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.8rem;
+  }
+
+  .skill-box {
+    padding: 25px;
+  }
+}

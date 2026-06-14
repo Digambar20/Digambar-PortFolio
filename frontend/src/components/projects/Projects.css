@@ -1,0 +1,142 @@
+.projects-section {
+  padding: 80px 0;
+  background-color: var(--bg-color);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+/* Card */
+.project-card {
+  background-color: var(--bg-color);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  height: 100%; /* ✅ Equal height cards */
+  display: flex;
+  flex-direction: column;
+}
+
+body.light .project-card {
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e8e8e8;
+}
+
+body.dark .project-card {
+  background-color: #1a1a1a;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Images */
+.carousel img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  height: 280px;
+  object-fit: cover;
+}
+
+/* Content */
+.project-body {
+  padding: 22px;
+  flex-grow: 1;
+}
+
+.project-body h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.project-body p {
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+/* Tech pills */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.tech-stack span {
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid #4caf7d;
+  color: #2f8f68;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+body.light .tech-stack span {
+  border: 1px solid #4caf7d;
+  background-color: #f0f7f3;
+  color: #2f8f68;
+}
+
+body.light .tech-stack span:hover {
+  background: #49c58a;
+  color: white;
+  border-color: #49c58a;
+}
+
+body.dark .tech-stack span {
+  border: 1px solid #49c58a;
+  color: #7ff5b8;
+  background-color: transparent;
+}
+
+body.dark .tech-stack span:hover {
+  background: #49c58a;
+  color: #000;
+}
+
+/* Links */
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2f8f68;
+  transition: 0.3s;
+}
+
+body.light .project-links a {
+  color: #2f8f68;
+}
+
+body.light .project-links a:hover {
+  color: #1e5a44;
+  text-decoration: underline;
+}
+
+body.dark .project-links a {
+  color: #7ff5b8;
+}
+
+body.dark .project-links a:hover {
+  color: #b3ffdb;
+  text-decoration: underline;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+/* src/index.css */
+
+/* Theme variables */
+body.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+/* Apply globally */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Force ALL elements to follow theme */
+* {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* index.css */
+section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
