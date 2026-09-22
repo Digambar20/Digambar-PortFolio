@@ -1,7 +1,7 @@
-import j1 from "../../assets/Jwel1.png";
-import j2 from "../../assets/Jwel2.png";
-import j3 from "../../assets/Jwel3.png";
-import j4 from "../../assets/Jwel4.png";
+import j1 from "../../assets/jwel1.png";
+import j2 from "../../assets/jwel2.png";
+import j3 from "../../assets/jwel3.png";
+import j4 from "../../assets/jwel4.png";
 
 import h1 from "../../assets/HosHome.png";
 import h2 from "../../assets/Hos.png";
