@@ -1,3 +1,8 @@
+import j1 from "../../assets/Jwel1.png";
+import j2 from "../../assets/Jwel2.png";
+import j3 from "../../assets/Jwel3.png";
+import j4 from "../../assets/Jwel4.png";
+
 import h1 from "../../assets/HosHome.png";
 import h2 from "../../assets/Hos.png";
 import h3 from "../../assets/drh.png";
@@ -14,6 +19,16 @@ import G3 from "../../assets/G3.png";
 const projects = [
   {
     id: 1,
+    title: "JwelStore E-com",
+    description:
+      "Built a full-stack MERN application with user authentication, product catalog, shopping cart, and order management, deployed on Vercel with MongoDB Atlas and automated email notifications via Nodemailer, Implemented secure JWT-based admin dashboard with real-time order tracking, sales analytics, and automated order confirmation emails to customers using Gmail SMTP.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Bootstrap"],
+    images: [j1, j2, j3, j4],
+    github: "https://github.com/Digambar20/JwelStore.git",
+    demo: "https://jwelstore-bydk.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Hospital Patients Tracking System",
     description:
       "A full-stack MERN application designed to manage hospital operations efficiently. The system allows administrators to manage doctors, patients, appointments, and medical records through a centralized dashboard. Features include patient registration, appointment scheduling, doctor management, and secure database storage.",
