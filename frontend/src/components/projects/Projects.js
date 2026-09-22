@@ -39,7 +39,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Zerodha Clone",
     description:
       "A responsive clone of the Zerodha trading platform built using React. The project replicates the modern UI/UX of Zerodha, including landing pages, navigation, product sections, pricing information, and responsive design. It demonstrates front-end development skills and component-based architecture.",
@@ -49,7 +49,7 @@ const projects = [
     demo: "YOUR_LIVE_LINK",
   },
   {
-    id: 3,
+    id: 4,
     title: "GitHub Clone",
     description:
       "A full-stack GitHub clone built with the MERN stack featuring JWT-based authentication, repository management, and responsive dashboards. Developed RESTful APIs and integrated MongoDB for secure user and repository data management.",
